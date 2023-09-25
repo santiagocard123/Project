@@ -27,5 +27,6 @@ if (isset($_SESSION['usuario'])) {
 }
 ?>
     <h1>hola cliente</h1>
+    <p>adasdadadasdadasd</p>
 </body>
 </html>
