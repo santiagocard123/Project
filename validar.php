@@ -18,10 +18,26 @@ if ($filas == null) {
     <?php
     include("indexform.php");
     ?>
+    <script>
+            Swal.fire({
+  icon: 'error',
+  title: 'Oops...',
+  text: 'Something went wrong!',
+  footer: '<a href="">Why do I have this issue?</a>'
+})
+            //  window.location= 'indexform.php'
+    </script>
     <h1 class="bad">ERROR EN LA AUTENTIFICACION</h1>
     <?php
+        
+
 } else if ($filas['id_cargo'] == 1) {
+    
     header("location:index.php");
+   
+    
+    
+
 } else if ($filas['id_cargo'] == 2) {
     header("location:cliente.php");
 } else {
@@ -32,5 +48,4 @@ if ($filas == null) {
 
 mysqli_free_result($resultado);
 mysqli_close($conexion);
-
 

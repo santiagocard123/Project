@@ -76,15 +76,15 @@
 	<input type="submit" class="btn" value="Ingresar">
 		</form> 
 </div>
-   <script src="js/formulario.js"></script>
+
 </main>
 
 
 
    
 
-
-
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/formulario.js"></script>
 
 </body>
 </html>
